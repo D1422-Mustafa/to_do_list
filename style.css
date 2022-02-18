@@ -26,6 +26,7 @@ body {
     width: 40rem;
     margin-right: 1rem;
     border: 3px solid black;
+    font-size: 1.5rem;
 }
 #plus{
     background-color: cadetblue;
@@ -55,18 +56,18 @@ body {
     text-align: center;
 }
 #todo{
-    font-size: 2rem;
-    width: 40rem;
+    font-size: 1.5rem;
+    width: 45rem;
     text-align: left;
-    background-color: aquamarine;
+    background-color: cadetblue;
     display: inline-block;
     padding: 5px;
 }
 #remove {
     text-align:center;
-    font-size: 2rem;
-    background-color: aquamarine;
+    font-size: 1.5rem;
+    background-color: cadetblue;
     border: none;
-    margin: -1.5%;
+    margin: -2%;
     color:red
 }
