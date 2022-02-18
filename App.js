@@ -20,11 +20,12 @@ plus.addEventListener("click", ()=>{
 
     toDo.addEventListener("click", ()=>{
         toDo.style.textDecorationLine = "line-through";
-        toDo.style.textDecorationColor = "white";
+        toDo.style.textDecorationColor = "red";
     })
 
     remove.addEventListener("click", ()=>{
         remove.style.display = "none";
-        toDo.style.display = "none"
+        toDo.style.display = "none";
+        brow.style.display = "none";
     })
 })
